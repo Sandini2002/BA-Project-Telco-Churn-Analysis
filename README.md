@@ -32,8 +32,6 @@ This repository is structured to follow the BA/Data project lifecycle:
 * **Description:** I analyzed the raw data to find initial patterns.
 * **Key Insight:** The EDA showed that churn is not random. It is heavily concentrated among new customers (low tenure) on Month-to-Month contracts.
 
-![Churn by Contract](1_contract_churn.png)
-![Churn by Tenure](4_tenure_churn.png)
 
 #### 3. Phase 3: Predictive Modeling
 * **File:** `Telco_Churn_Analysis.ipynb`
@@ -45,7 +43,6 @@ This repository is structured to follow the BA/Data project lifecycle:
 * **Description:** I interpreted the model to find the *most important drivers* of churn.
 * **Key Finding:** The model's decisions are based primarily on **Tenure** (44%) and **Internet Service (Fiber Optic)** (35%). This provides a clear, actionable focus for the business.
 
-![Feature Importance](5_feature_importance.png)
 
 ---
 
